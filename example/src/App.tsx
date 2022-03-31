@@ -19,11 +19,14 @@ function buttonPressed() {
   var chatLimit = 100;
   var language = 0;
  
-  launchBot("BOT_KEY","BOT_NAME","BRANDING_KEY",showWelcomeMsg,enableLogs,"USER_ID",chatLimit,showDone,"CLOSE_BUTTON_IMAGE_NAME",language,"HEADER_TITLE_FONT_NAME","HEADER_DESCRIPTION_FONT_NAME","SEND_MESSAGE_BUTTON_ICON_NAME",userAttribute).then (
-    (value) => {
-      console.log(value)
-    }
-  );
+  launchBot("7b2f8fe62c8d4176","BOT_NAME","default",showWelcomeMsg,enableLogs,
+  "USER_ID",chatLimit,showDone,"CLOSE_BUTTON_IMAGE_NAME",language,
+  "Montserrat-Regular.ttf","Montserrat-Regular.ttf","SEND_MESSAGE_BUTTON_ICON_NAME",
+  userAttribute);//.then (
+  //   (value) => {
+  //     console.log(value)
+  //   }
+  // );
 }
 
 const styles = StyleSheet.create({
