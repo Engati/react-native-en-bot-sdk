@@ -19,7 +19,7 @@ function buttonPressed() {
   var chatLimit = 100;
   var language = 0;
  
-  launchBot("7b2f8fe62c8d4176","BOT_NAME","default",showWelcomeMsg,enableLogs,
+  launchBot("BOT_KEY","BOT_NAME","default",showWelcomeMsg,enableLogs,
   "USER_ID",chatLimit,showDone,"CLOSE_BUTTON_IMAGE_NAME",language,
   "Montserrat-Regular.ttf","Montserrat-Regular.ttf","original_cock.png",
   userAttribute).then (
