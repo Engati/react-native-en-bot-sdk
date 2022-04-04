@@ -21,12 +21,12 @@ function buttonPressed() {
  
   launchBot("7b2f8fe62c8d4176","BOT_NAME","default",showWelcomeMsg,enableLogs,
   "USER_ID",chatLimit,showDone,"CLOSE_BUTTON_IMAGE_NAME",language,
-  "Montserrat-Regular.ttf","Montserrat-Regular.ttf","SEND_MESSAGE_BUTTON_ICON_NAME",
-  userAttribute);//.then (
-  //   (value) => {
-  //     console.log(value)
-  //   }
-  // );
+  "Montserrat-Regular.ttf","Montserrat-Regular.ttf","original_cock.png",
+  userAttribute).then (
+    (value) => {
+      console.log(value)
+    }
+  );
 }
 
 const styles = StyleSheet.create({
